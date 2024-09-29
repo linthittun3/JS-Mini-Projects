@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <i>Hello</i>
+        <h1 id="heading">Hello World</h1>
+        <p>Hello World 2</p>
+    </div>
+    <!-- <div class="blog">
+        <h1>This is a title</h1>
+        <p>THis is paragraph</p>
+    </div> -->
+    <!-- <ul id="list">
+        <li>
+            <span class="item">This is item 1</span>
+        </li>
+        <li>
+            <span class="item">This is item 2</span>
+        </li>
+        <li>
+            <span class="item">This is item 3</span>
+        </li>
+        <li>
+            <span class="item">This is item 4</span>
+        </li>
+        <li>
+            <span class="item">This is item 5</span>
+        </li>
+
+        <li>List item One</li>
+        <li>List item Two</li>
+        <li>List item Three</li>
+        <li>List item Four</li>
+    </ul> -->
+    <script>
+        // let itemCollection = document.getElementsByClassName("item");
+        // Array.from(itemCollection).forEach((item) => console.log(item));
+        // // for(let i = 0; i < itemCollection.length; i++){
+        // //     console.log(itemCollection[i])
+        // // }
+        // let nodeList = document.querySelectorAll('.item')
+        // nodeList.forEach((node) => console.log(node));
+        // for(let i = 0; i < nodeList.length; i++){
+        //     console.log(nodeList[i]);
+        // }
+        // let title = document.getElementById('title');
+        // title.textContent += " new";
+        // let list = document.getElementById('list')
+        // list.innerHTML += "<li>This is new list</li>"
+        // let heading = document.getElementById('heading');
+        // let blog = document.getElementsByClassName('blog')[0];
+        // console.log('This is heading node type: '+heading.nodeType);
+        // console.log('This is heading node type: '+heading.nodeName);
+        // let cloneHeading = heading.cloneNode(true);
+        // let cloneBlog = blog.cloneNode(true);
+        // console.log(cloneHeading);
+        // console.log(cloneBlog);
+        let heading = document.getElementById("heading");
+        let header = document.getElementsByClassName('header')[0];
+        console.log(header.children)
+        console.log(heading.previousElementSibling);
+    </script>
+</body>
+</html>
